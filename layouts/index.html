@@ -1,3 +1,14 @@
 {{ define "body" }}
-    {{ .Content }}
+    <div class="d-flex flex-row">
+        <div>
+            <nav>
+                Nav
+            </nav>
+        </div>
+        <div>
+            <main>
+                {{ .Content }}
+            </main>
+        </div>
+    </div>
 {{ end }}
